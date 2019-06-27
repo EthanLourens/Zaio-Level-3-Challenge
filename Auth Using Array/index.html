@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html>
+
+<head>
+    
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Name, Surname, Age, Email, Password, Signup">
+    <meta name="description" content="Signup form">
+    <title>Auth Using Arrays</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+     <link rel="stylesheet"href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <script src="JS/main.js"></script>
+   
+    
+</head>
+    
+<body>
+<!--    <style>body{background-image: image()}</style>-->
+
+    <ul class="nav">
+    <li>Home</li>
+    <li>Contact</li>    
+    </ul>
+    
+
+    <div class="row">
+  <div class="column" style="background-image:url(css/circuit-board-background.jpg)">
+    <ul>   
+    <div id="Details" >
+       <h2>Details</h2>
+   <form id='myForm' > 
+        First name:<br>
+       <li><input type="text" id="firstname" placeholder="Enter Firstname"></li>
+        Surname:<br>
+        <li><input type="text" id="surname" placeholder="Surname"></li>
+        Age:<br>
+        <li><input type="date" id="birthday" placeholder="Enter Date of Birth"></li>
+        Email:<br>
+        <li><input type="email" id="email" placeholder="Enter Email"></li>
+        Password:<br>
+        <li><input type="password" id="password" placeholder="Enter Password"></li>
+        Confirm Password:<br>
+        <li><input type="password" id="confrirmPassword" placeholder="Retype Password"></li>
+        <pre></pre>
+       <input type="button" value="Submit" id="submit" onclick="myFunction()"/>
+       <input type="button" value="Reset" id="reset" onclick="document.location.reload(true)">
+    </form>
+    </div>
+   </ul> 
+    
+  </div>
+  <div class="column" style="background-image:url(css/circuit-board-background.jpg)" >
+    <img  src="img/computer.jpg" height="451" width="655" onmouseover="src='img/darkbackground.jpg';" onmouseout="src='img/computer.jpg'";>
+  </div>
+</div>
+   
+<ul class="footer">
+    <li><i class="material-icons">lock</i></li>
+    <li><i class="material-icons">facebook</i></li>
+    <li><i class="material-icons">copyright</i></li>
+    </ul>
+     
+<!--
+    <script>    
+    var myData= ("myForm").getFormData;
+    console.log(myData)</script>
+-->
+    
+  
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+.nav{background-image:url(circuit-board-background.jpg);
+padding: 20px;
+align-self: none;
+text-align: left;
+color: floralwhite}
+
+.nav li{display: inline-block;
+font-size: 20px;
+padding-left: 20px;
+padding-right: 20px}
+.nav li:hover{color: darkred}
+
+.footer{background-image: url(circuit-board-background.jpg);
+padding: 10px;
+align-self: none;
+text-align: right}
+
+.footer li{display: inline-block; }
+
+i,form{color: floralwhite}
+
+body{background-image: url(background.jpg)}
+
+
+input{width: 25%}
+
+div h2{ text-align: center;
+    font-family: "Times New Roman",Times,serif;
+font-size: 35px;
+color: floralwhite}
+
+
+form{font-size: 20px
+}
+
+
+
+#submit,#reset {padding: 10px 50px;
+background-color: darkslategray;
+border: 1px solid #black;
+color: white}
+#submit:hover,#reset:hover{background-color: dimgray}
+
+li{list-style-type: circle;}
+li:hover{list-style-type: square}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
